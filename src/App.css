@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1d2128;
+  font-family: 'Work Sans';
+}
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(229, 229, 229, 0.2);
+}

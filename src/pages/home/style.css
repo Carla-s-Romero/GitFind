@@ -1,0 +1,90 @@
+.content{
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.infor{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 6rem;
+    color: #ffff;
+}
+
+input{
+    color: rgba(153, 153, 153, 1);
+    border: 1px solid rgba(153, 153, 153, 1);
+    background-color: transparent;
+    min-width: 30rem;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding: 1rem;
+    margin-right: 18px;
+}
+
+input:hover{
+    background-color: aliceblue; 
+    color: black;
+}
+
+button{
+    width: 10rem;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(45, 51, 59, 1);
+    color: rgba(153, 153, 153, 1);
+    border: 1px solid rgba(153, 153, 153, 1);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 4rem;
+    color: rgba(153, 153, 153, 1);
+}
+
+.profile img{
+    width: 20%;
+    border-radius: 100%;
+    border: 1px solid #ffff;
+}
+
+.inforProfile{
+    margin-top:1rem;
+    padding-left: 2rem;
+}
+
+.inforProfile h3{
+    font-size: 1.8em;
+}
+
+.inforProfile p{
+    padding-top: 0.5rem;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+#bio{
+   margin-top: 2rem;
+}
